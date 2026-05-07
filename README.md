@@ -83,3 +83,6 @@ Modify global or project-specific `opencode.json`:
   "model": "vllm/Qwen/Qwen3-Coder-Next-FP8"
 }
 ```
+
+Start Opencode:  
+`opencode`
