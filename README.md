@@ -19,9 +19,9 @@ System requirements:
 
 ## Before Getting Started
 
-Install one or both client tools:
-`npm install -g opencode-ai`
-`npm install -g @qwen-code/qwen-code`
+Install one or both client tools:  
+`npm install -g opencode-ai`  
+`npm install -g @qwen-code/qwen-code`  
 
 From the repository root, make sure the vLLM container exists at:
 `sif/vllm-openai.sif`
