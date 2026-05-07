@@ -1,3 +1,4 @@
 
 # Tester files
 test_gpu_use.sh
+scripts/run_planning_vllm_server.sh

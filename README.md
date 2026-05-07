@@ -42,6 +42,9 @@ Check that the two GPUs provide enough VRAM:
 Start the server from the repository root:  
 `bash scripts/run_coder_vllm_server.sh`
 
+Tensor parallelism note:  
+The server script sets `--tensor-parallel-size` from `SLURM_GPUS_ON_NODE`, so when you request `--gres=gpu:2`, vLLM splits the model across both GPUs automatically. If you allocate a different number of GPUs, the script will pass that count through to vLLM.
+
 ## Connecting A Client
 
 Take note of the GPU hostname (ex. gpu06, gppu07, etc.) from the server terminal, then in another HPCC terminal set:  
